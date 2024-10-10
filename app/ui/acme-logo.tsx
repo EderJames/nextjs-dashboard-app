@@ -4,7 +4,7 @@ import { x } from '@/app/ui/fonts';
 export default function AcmeLogo() {
   return (
     <div
-      className={`${x[1].className.className} flex flex-row items-center leading-none text-white`}
+      className={`${x[1].className} flex flex-row items-center leading-none text-white`}
     >
       <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
       <p className="text-[44px]">Acme</p>
